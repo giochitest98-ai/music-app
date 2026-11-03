@@ -1,0 +1,53 @@
+name: flutter_media_app
+description: "Applicazione Android Flutter con Media Player (Preferiti, Album, Video da memoria locale), YouTube e Browser Web."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icone
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.2
+
+  # Audio Player
+  just_audio: ^0.9.40
+  audio_video_progress_bar: ^2.0.3
+
+  # Video Player & UI
+  video_player: ^2.9.2
+  chewie: ^1.8.5
+
+  # Scansione Audio & Album da memoria Android
+  on_audio_query: ^2.9.0
+
+  # Permessi memoria e media Android 13+
+  permission_handler: ^11.3.1
+
+  # WebView per YouTube e Browser
+  webview_flutter: ^4.10.0
+  webview_flutter_android: ^3.16.8
+
+  # Persistenza dati (Preferiti, cronologia)
+  shared_preferences: ^2.3.2
+
+  # Gestione percorsi file
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # Formattazione durate e date
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
